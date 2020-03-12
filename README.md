@@ -12,17 +12,17 @@ Purify is a Roguelike deckbuilding game, in which the players have to optimize t
 
 - 48 different cards
 - 13 different encounter
-- 1 boss
-- with seeed
+- Soul System
+- modification of starter deck
 
-[![Gameplay Screenshot](Images/Gameplay.png)]
+[![Gameplay Screenshot](Images/Gameplay.png)](https://s4g.itch.io/purify)
 
 
 [Build Download](https://github.com/SradnickDev/Purify/blob/master/Build/Purify_GoldMaster_Build.rar)
 
 ### Documentation
 
-  - [Technical Design Document](https://github.com/SradnickDev/Purify/blob/master/Documents/Purify TDD.pdf)
+  - [Technical Design Document](https://github.com/SradnickDev/Purify/blob/master/Documents/Purify%20TDD.pdf)
 
 ### Tools
 
