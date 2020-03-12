@@ -1,0 +1,40 @@
+using MessagePack;
+using Status.General;
+using Units.General;
+
+namespace Status.Types
+{
+	[MessagePackObject(true)]
+	public class ##NAME##Data : StatusData
+	{
+
+		public ##NAME##Data()
+		{
+			Name = "##NAME##";
+		}
+
+		public override StatusBase Initialize(Unit owner)
+		{
+			return new ##NAME##(this, owner);
+		}
+	}
+	
+	
+	public class ##NAME##: CounterBuff
+	{
+        public ##NAME##(StatusData statusData, Unit unit) : base(statusData, unit)
+		{
+		}
+
+		public override void Activate()
+        {
+        
+        }
+        
+        public override void Deactivate()
+        {
+        	
+        }
+
+	}
+}

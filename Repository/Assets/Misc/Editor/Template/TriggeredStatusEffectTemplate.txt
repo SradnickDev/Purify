@@ -1,0 +1,47 @@
+using Cards.General;
+using MessagePack;
+using Status.General;
+using Units.General;
+
+namespace Status.Types
+{
+	[MessagePackObject(true)]
+	public class ##NAME##Data : StatusData
+	{
+
+		public ##NAME##Data()
+		{
+			Name = "##NAME##";
+		}
+
+		public override StatusBase Initialize(Unit owner)
+		{
+			return new ##NAME##(this, owner);
+		}
+	}
+	
+	
+	public class ##NAME##: TriggeredStatus
+	{
+		public ##NAME##(StatusData statusData, Unit unit) : base(statusData, unit) { }
+
+        public override bool IsFinished => Instances == 0;
+
+		public override void SetupTrigger()
+		{
+		    //add new trigger
+			//StatusData.Trigger.Requirements.Add();
+		}
+
+		public override void OnTriggerRaised()
+		{
+		    //do something
+			Instances--;
+
+			if (Instances == 0)
+			{
+				AffectedUnit.StatusContainer.Remove(this);
+			}
+		}
+	}
+}

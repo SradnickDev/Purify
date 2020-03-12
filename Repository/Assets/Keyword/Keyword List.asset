@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4542380fdee4b82bff50b82360a14f4, type: 3}
+  m_Name: Keyword List
+  m_EditorClassIdentifier: 
+  Tag: '[n] where n = index'
+  Keywords:
+  - Keyword: <color=#FFD100>Combo</color>
+    Description: 'The effect described after <color=#FFD100>Combo</color> only happens,
+      if another card was already played. '
+  - Keyword: <color=#FFD100>Fleeting</color>
+    Description: 'This card is [6] if not played until the end of your turn. '
+  - Keyword: <color=#FFD100>Chained</color>
+    Description: 'This card dosen''t get discarded at the end of your turn. '
+  - Keyword: <color=#FFD100>Scry</color>
+    Description: 'Look at the next X cards of the draw pile. You may discard any number
+      of them. '
+  - Keyword: <color=#FFD100>Soulbound</color>
+    Description: 'This card is in your hand at the start of a battle. '
+  - Keyword: <color=#FFD100>Unplayable</color>
+    Description: Can't be played. The effect happens if it is discarded by another
+      card.
+  - Keyword: <color=#FFD100>Banish</color>
+    Description: 'Cards with <color=#FFD100>Banish</color> are removed for the rest
+      of the battle after they are played. '
+  - Keyword: <color=#FFD100>Demonic</color>
+    Description: 'Cards with <color=#FFD100>Demonic</color> can only be played if
+      you have at least on stack of Corruption. You gain stacks of Corruption the
+      less Soul you have. Many cards get affected by the amout of <color=#FFD100>Corruption</color>
+      you have. '
+  - Keyword: <color=#FFD100>Divine</color>
+    Description: Cards with <color=#FFD100>Divine</color> can only be played if you
+      have at least on stack of Purity. You gain stacks of Purity the more [22] you
+      have. Many cards get affected by the amout of <color=#FFD100>Purity</color>
+      you have.
+  - Keyword: <color=#FFD100>Might</color>
+    Description: For each stack of <color=#FFD100>Might</color> each attack instance
+      deals one more damage.
+  - Keyword: <color=#FFD100>Perseverance</color>
+    Description: For each stack of <color=#FFD100>Perseverance</color> each instance
+      of Defense gives one more <color=#FFD100>Defense</color>. <color=#FFD100>Defense</color>
+      prevents an equal amout of damage. All <color=#FFD100>Defense</color> is lost
+      at the start of the units turn.
+  - Keyword: <color=#FFD100>Purity</color>
+    Description: You gain stacks of <color=#FFD100>Purity</color> the more [22] you
+      have. Many cards get affected by the amout of <color=#FFD100>Purity</color>
+      you have.
+  - Keyword: <color=#FFD100>Corruption</color>
+    Description: You gain stacks of <color=#FFD100>Corruption</color> the less [22]
+      you have. Many cards get affected by the amout of <color=#FFD100>Corruption</color>
+      you have.
+  - Keyword: <color=#FFD100>Holy Water</color>
+    Description: Purifies [22] equal to the number of stacks of <color=#FFD100>Holy
+      Water</color>.
+  - Keyword: <color=#FFD100>Demonic Infusion</color>
+    Description: Corrupts [22] equal to the number of stacks of <color=#FFD100>Demonic
+      Infusion</color>.
+  - Keyword: <color=#FFD100>Fatigue</color>
+    Description: Deal 50% less damage with attacks.
+  - Keyword: <color=#FFD100>Vulnerability</color>
+    Description: Recive 50% more damage from attacks.
+  - Keyword: <color=#FFD100>Decrepitude</color>
+    Description: Gain 50% less [21].
+  - Keyword: <color=#FFD100>Temptation</color>
+    Description: Corrupting the affected unit [22] is 50% more effective.
+  - Keyword: <color=#FFD100>Abstinence</color>
+    Description: Purifying the affected unit [22] is 50% more effective.
+  - Keyword: <color=#FFD100>Sigil</color>
+    Description: 'Sigil prevents the next instance of a debuff. '
+  - Keyword: <color=#FFD100>Defense</color>
+    Description: <color=#FFD100>Defense</color> prevents an equal amout of damage.
+      All <color=#FFD100>Defense</color> is lost at the start of the units turn.
+  - Keyword: <color=#FFD100>Soul</color>
+    Description: Like your health, your <color=#FFD100>Soul</color> will be attacked
+      by many enemies. If it is fully corrupted you will lose.
+  - Keyword: '<color=#FFD100>Smite Card</color> '
+    Description: A <color=#FFD100>Smite Card</color> is a card with the word "Smite"
+      in its name.
+  - Keyword: <color=#FFD100>Afterblow</color>
+    Description: <color=#FFD100>Afterblow</color> is an attack card that cost 0. It
+      grows stronger the more attack cards were played this turn.
+  - Keyword: <color=#FFD100>Pacifist</color>
+    Description: The effect described after <color=#FFD100>Pacifist</color> only happens,
+      if no attack card was played this turn.

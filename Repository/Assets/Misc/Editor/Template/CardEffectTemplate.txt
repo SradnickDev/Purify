@@ -1,0 +1,21 @@
+using Cards.Effects.General;
+using MessagePack;
+using Status;
+using Units.General;
+
+namespace Cards.Effects
+{
+	[MessagePackObject(true)]
+	public class ##NAME##: Effect
+	{
+		public override void Execute(Unit target, Unit from)
+		{
+			
+		}
+		
+		public override string Value(Unit unit)
+		{
+		    return "";
+		}
+	}
+}

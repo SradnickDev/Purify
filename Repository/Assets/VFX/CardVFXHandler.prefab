@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7657772934088605266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7657772934088605270}
+  - component: {fileID: 7657772934088605265}
+  - component: {fileID: 7657772934088605267}
+  - component: {fileID: 7657772935304087917}
+  m_Layer: 5
+  m_Name: CardVFXHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7657772934088605270
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7657772934088605266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &7657772934088605265
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7657772934088605266}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 8
+  m_TargetDisplay: 0
+--- !u!114 &7657772934088605267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7657772934088605266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c100d3e66f3cc741ace6e0cbe3819c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_initialPoolSize: 3
+  m_vfxSets:
+  - {fileID: 8417703219587301054, guid: 3e5ef7b34c77672498377e03d7970d46, type: 3}
+  - {fileID: 8417703219587301054, guid: 1c5979fd80cc84a43960e30e6a200d5c, type: 3}
+  - {fileID: 7035301471418381599, guid: 5de3e004d52794747bce847e0f8eb184, type: 3}
+  - {fileID: 8417703219587301054, guid: 00f4af61e010cc7458472ccc65262648, type: 3}
+  - {fileID: 8417703219587301054, guid: fd20be8ca47bb2e41917c7705014ea4d, type: 3}
+  - {fileID: 8417703219587301054, guid: 0bcd9713977d24445866a7f6979efd58, type: 3}
+  - {fileID: 8417703219587301054, guid: 430924d116868ee4b9d2e5311fa882fa, type: 3}
+  - {fileID: 8417703219587301054, guid: ffc9d479c947bb9419850090c78d6099, type: 3}
+  - {fileID: 7035301471418381599, guid: e64b45e37aee13b4eaf8c63a175adb12, type: 3}
+  - {fileID: 8417703219587301054, guid: 61aaad842889308479b769140680eb4c, type: 3}
+  - {fileID: 8417703219587301054, guid: 2dadb75a95c9e2946bc0eb3c7c56b0ac, type: 3}
+  - {fileID: 988964048551034379, guid: 3b9c620a0454c5d42ab74ae8bf469bc9, type: 3}
+  - {fileID: 988964048551034379, guid: d1f0c5f8009aaa049930dc9d122e8f04, type: 3}
+  - {fileID: 988964048551034379, guid: 4fea8a5cf935cc5449f5b84d7d30b7e9, type: 3}
+  - {fileID: 988964048551034379, guid: ecba6ce684d3541459e065f647236a95, type: 3}
+  - {fileID: 8417703219587301054, guid: 1997a5573f196ff4dad59707e4f2075e, type: 3}
+  - {fileID: 8417703219587301054, guid: 6ea9881b7f797b743b4c6a27439f62c9, type: 3}
+  - {fileID: 8417703219587301054, guid: 0941c9cc2be6c444888ab93bd66376ba, type: 3}
+  - {fileID: 8417703219587301054, guid: 511fd5132559363449e9b4b723e2e283, type: 3}
+  - {fileID: 8417703219587301054, guid: 4dfa67044963c4945a1dd14fc443e098, type: 3}
+  - {fileID: 8417703219587301054, guid: fdbe825a944a89242ba1ce1d91e8f921, type: 3}
+  - {fileID: 8417703219587301054, guid: 848b75710bc472e458082610319edcc1, type: 3}
+--- !u!114 &7657772935304087917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7657772934088605266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e41431e1104484ab9e48df44b3870f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

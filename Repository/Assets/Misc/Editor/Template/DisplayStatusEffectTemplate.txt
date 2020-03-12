@@ -1,0 +1,31 @@
+using MessagePack;
+using Status.General;
+using Units.General;
+
+namespace Status.Types
+{
+	[MessagePackObject(true)]
+	public class ##NAME##Data : StatusData
+	{
+
+		public ##NAME##Data()
+		{
+			Name = "##NAME##";
+		}
+
+		public override StatusBase Initialize( Unit owner)
+		{
+			return new ##NAME##( this, owner);
+		}
+	}
+	
+	
+	public class ##NAME##: StatDisplayStatus
+	{
+		public ##NAME##(StatusData statusData, Unit unit) : base(statusData, unit)
+		{
+			ObservedStat = null;//e.g unit.Might;
+		}
+		public override bool IsFinished => false;
+	}
+}
