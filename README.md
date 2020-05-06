@@ -1,6 +1,6 @@
 <p align="center">
-	<a href="https://s4g.itch.io/gravity-combat">
-		<img width="460" height="300" src="https://raw.githubusercontent.com/SradnickDev/Purify/master/Images/Purify_Title.png">
+	<a href="https://s4g.itch.io/purify">
+		<img width="460" height="300" src="https://raw.githubusercontent.com/SradnickDev/Purify/master/img/Purify_Title.png">
 	</a>
 	</p>
 
@@ -34,13 +34,13 @@ Purify is a Roguelike deckbuilding game, in which the players have to optimize t
 [![Gameplay Screenshot](Images/Gameplay.png)](https://s4g.itch.io/purify)
 
 
-[Build Download](https://github.com/SradnickDev/Purify/blob/master/Build/Purify_GoldMaster_Build.rar)
+[Build Download](./build/Purify_GoldMaster_Build.zip)
 
 ### Documentation
 
-  - [Technical Design Document](https://github.com/SradnickDev/Purify/blob/master/Documents/Purify%20TDD.pdf)
+  - [Technical Design Document](./docs/PurifyTDD.pdf)
 
 ### Tools
 
-  - [TortoiseSlackSlave](https://github.com/SradnickDev/Purify/tree/master/Tools/TortoiseSlackSlave)
+  - [TortoiseSlackSlave](./tools/TortoiseSlackSlave)
 	- TortoiseHg hook that posts in specific Slack channels about commits
