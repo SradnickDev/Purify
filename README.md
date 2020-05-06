@@ -31,10 +31,10 @@ Purify is a Roguelike deckbuilding game, in which the players have to optimize t
 - Created different Editor’s to extend game content easily
 -  Developed simple to use Game Architecture
 
-[![Gameplay Screenshot](Images/Gameplay.png)](https://s4g.itch.io/purify)
+[![Gameplay Screenshot](./img/Gameplay.png)](https://s4g.itch.io/purify)
 
 
-[Build Download](./build/Purify_GoldMaster_Build.zip)
+[Build Download](https://s4g.itch.io/purify)
 
 ### Documentation
 
